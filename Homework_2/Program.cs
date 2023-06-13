@@ -1,4 +1,6 @@
-﻿Console.Write("Enter the first number out of three: ");
+﻿// Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел. 
+
+Console.Write("Enter the first number out of three: ");
 string inputedString1 = Console.ReadLine(); // Console reads the first input
 int number1 = Convert.ToInt32(inputedString1); // The first input converted into int
 Console.Write("Enter the second number out of three: ");
